@@ -18,6 +18,6 @@ def find_the_cheese(a)
   type = ""
   if a.include?(cheese_types.each)
     type << a
-    return a
+    return type
   end
 end
