@@ -16,7 +16,7 @@ def find_the_cheese(a)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   type = ""
-  if a.include?(cheese_types)
+  if a.include?(cheese_types.each)
     type << a
     return a
   end
