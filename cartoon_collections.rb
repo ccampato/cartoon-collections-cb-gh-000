@@ -15,7 +15,5 @@ end
 def find_the_cheese(a)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  type = ""
-  type << a.find { |element| a[element] == cheese_types[element]  }
-  type
+  a.first { |i| a[i] == cheese_types[i] }
 end
