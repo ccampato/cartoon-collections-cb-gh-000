@@ -15,5 +15,9 @@ end
 def find_the_cheese(a)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  a.first { |i| a[i].include?(cheese_types[i]) }
+  type = ""
+  if a.include?(cheese_types.any?)
+    type << a
+    return a
+  end
 end
