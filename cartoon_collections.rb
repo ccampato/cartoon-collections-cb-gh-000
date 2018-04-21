@@ -23,5 +23,4 @@ def find_the_cheese(a)
       nil
     end
   end
-  type
 end
