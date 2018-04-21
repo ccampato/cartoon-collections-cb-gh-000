@@ -16,7 +16,7 @@ def find_the_cheese(a)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   type = ""
-  cheese_types.any? do |cheese|
+  cheese_types.fincd do |cheese|
     if a.include?(cheese)
       type << cheese
     end
