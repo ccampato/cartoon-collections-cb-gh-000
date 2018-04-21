@@ -20,6 +20,6 @@ def find_the_cheese(a)
     if a.include?(cheese)
       type << cheese
     end
-    type
   end
+  type
 end
